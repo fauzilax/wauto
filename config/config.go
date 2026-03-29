@@ -7,6 +7,12 @@ type Config struct {
 	MYTOKEN string `mapstructure:"MYTOKEN"`
 	//TargetWA     string `mapstructure:"TARGET_WA"`
 	GRAFANAURL1 string `mapstructure:"GRAFANAURL1"`
+	GRAFANAURL2 string `mapstructure:"GRAFANAURL2"`
+	GRAFANAURL3 string `mapstructure:"GRAFANAURL3"`
+	GRAFANAURL4 string `mapstructure:"GRAFANAURL4"`
+	GRAFANAURL5 string `mapstructure:"GRAFANAURL5"`
+	GRAFANAURL6 string `mapstructure:"GRAFANAURL6"`
+	GRAFANAURL7 string `mapstructure:"GRAFANAURL7"`
 }
 
 func LoadConfig() (config Config, err error) {
